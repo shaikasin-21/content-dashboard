@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root { --bg:#f5f7fa; --fg:#14202b; --card:#ffffff; --muted:#5b6b7a; --line:#d8e0e8; --accent:#0b6e7f; }
+.dark { --bg:#0d1a24; --fg:#e6edf3; --card:#14283a; --muted:#9fb0c0; --line:#24405a; --accent:#4fc3d4; }
+body { background:var(--bg); color:var(--fg); font-family: Georgia, 'Iowan Old Style', serif; }
+button, input, nav, .ui { font-family: system-ui, sans-serif; }
+:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; transition:none !important; } }
