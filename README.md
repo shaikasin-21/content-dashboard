@@ -30,3 +30,5 @@ Import the repo into Vercel and set `NEWS_API_KEY` and `TMDB_API_KEY`.
 
 ## Limitations
 Mock authentication, i18n and real-time (SSE) bonus features are not included.
+## Live Link
+[Click here to view Live Project](https://content-dashboard-liart-delta.vercel.app/)
